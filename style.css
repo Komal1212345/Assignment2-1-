@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add specific styles for your elements if needed */
+.ui-widget {
+    font-size: 14px;
+}
+
+#draggable, #droppable, #resizable, #selectable, #accordion, #autocomplete, #datepicker, #slider,
+#showHideTarget, #explodeTarget, #fadeTarget, #colorAnimateTarget {
+    margin: 20px;
+}
+
+/* Draggable */
+#draggable {
+    cursor: move;
+}
+
+/* Droppable */
+#droppable {
+    min-height: 100px;
+    padding: 0.5em;
+}
+
+/* Resizable */
+#resizable {
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+}
+
+/* Selectable */
+#selectable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#selectable li {
+    margin: 3px;
+    padding: 0.4em;
+    font-size: 1.4em;
+    height: 18px;
+}
+
+/* Accordion */
+#accordion {
+    width: 300px;
+}
+
+/* Autocomplete */
+#autocomplete {
+    width: 200px;
+}
+
+/* Datepicker */
+#datepicker {
+    width: 100px;
+}
+
+/* Slider */
+#slider {
+    width: 200px;
+    color: brown;
+}
+
+/* Show & Hide, Explode, Fade-in & Fade-out, Color Animation */
+#showHideTarget, #explodeTarget, #fadeTarget, #colorAnimateTarget {
+    display: none;
+}
